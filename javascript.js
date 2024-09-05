@@ -57,7 +57,7 @@ equal.addEventListener("click", () => {
   //   console.log("second number: " + secondNumber);
   resetDisplay();
   evaluate();
-  shouldReset = false;
+  shouldReset = true;
   equalEvaluated = true;
 });
 
@@ -121,6 +121,6 @@ function operate(op, num1, num2) {
     }
   }
   if (op === "") {
-    return 0;
+    return num2;
   }
 }
