@@ -114,7 +114,7 @@ function operate(op, num1, num2) {
   }
   if (op === "/") {
     if (num2 === 0) {
-      console.log(errorMessage);
+      //   console.log(errorMessage);
       return errorMessage;
     } else {
       return num1 / num2;
